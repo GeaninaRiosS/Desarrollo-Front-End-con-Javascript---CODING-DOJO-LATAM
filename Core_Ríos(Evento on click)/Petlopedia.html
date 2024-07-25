@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Petlopedia</h1>
+        <input type="text" placeholder="Buscar mascotas">
+        <button id="login-btn" onclick="toggleLogin()">Iniciar sesión</button>
+    </header>
+    <main>
+        <div class="content">
+            <div class="definitions">
+                <div class="definition">
+                    <h2>Gato Atigrado</h2>
+                    <p><em>sustantivo</em></p>
+                    <p>Plural: Gatos Atigrados</p>
+                    <p>Un gato con un pelaje distinto que presenta rayas...</p>
+                    <button class="like-btn" onclick="likeDefinition(this, 'Gato Atigrado')">22 me gusta</button>
+                </div>
+                <div class="definition">
+                    <h2>Golden Retriever</h2>
+                    <p><em>sustantivo</em></p>
+                    <p>Plural: Golden Retrievers</p>
+                    <p>Una raza de perro amistosa, inteligente y devota...</p>
+                    <button class="like-btn" onclick="likeDefinition(this, 'Golden Retriever')">45 me gusta</button>
+                </div>
+
+            </div>
+            <aside class="sidebar">
+                <p>Petlopedia está definida por TI</p>
+                <button id="add-definition-btn" onclick="addDefinition()">Agregar Definición</button>
+            </aside>
+        </div>
+    </main>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

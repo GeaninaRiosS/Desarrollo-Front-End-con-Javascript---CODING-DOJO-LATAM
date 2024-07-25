@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #5c5c5c;
+    color: white;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav h1 {
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logout {
+    padding: 10px;
+    background-color: #0dcaf0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.connection-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.connections {
+    width: 30%;
+}
+
+.profile {
+    width: 60%;
+}
+
+.profile-card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-card .header {
+    background-color: #ffabdf;
+    height: 80px;
+}
+
+.profile-card .avatar {
+    margin-top: -50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-card h1 {
+    margin: 10px 0;
+}
+
+.profile-card p {
+    color: #777;
+}
+
+.profile-card .container {
+    padding: 20px;
+}
+
+.education {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.education h2 {
+    margin-top: 0;
+}
+
+.education-item {
+    margin: 10px 0;
+}
+
+.connection-requests,
+.your-connections {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.connection-requests h2,
+.your-connections h2 {
+    margin-top: 0;
+}
+
+.request,
+.connection {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.request img,
+.connection img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.request button {
+    margin: 1px;
+    padding: 5px;
+}
+
+.accept {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reject {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
